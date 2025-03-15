@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_HUB_CREDS = credentials('docker-hub-credentials')
-        DOCKER_IMAGE = "mtruon32@my.centennialcollege.ca/comp367-webapp:v1"
+        DOCKER_IMAGE = "tanyatruong/comp367-webapp:v1"
     }
 
     stages {
